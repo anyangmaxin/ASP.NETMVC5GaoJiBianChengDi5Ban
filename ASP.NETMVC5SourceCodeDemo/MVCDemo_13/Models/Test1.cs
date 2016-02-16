@@ -26,9 +26,10 @@ namespace MVCDemo_13.Models
     {
         //private EmailService svc;
         private IMessageingService svc;
-        public NotificationSystem()
+        public NotificationSystem(IServiceLocator locator)
         {
-            svc=new EmailService();
+            //  svc=new EmailService();
+            svc = locator.GetMessagingService();
         }
 
         public void InterestingEventHappened()
