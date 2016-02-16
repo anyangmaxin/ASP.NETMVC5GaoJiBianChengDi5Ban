@@ -26,13 +26,19 @@ namespace MVCDemo_13.Models
     {
         //private EmailService svc;
         private IMessageingService svc;
-        public NotificationSystem(IServiceLocator locator)
-        {
-            //  svc=new EmailService();
+        //public NotificationSystem(IServiceLocator locator)
+        //{
+        //    //  svc=new EmailService();
 
-            // svc = locator.GetMessagingService();
-            //弱类型服务定位器
-            svc = (IMessageingService)locator.GetService(typeof(IMessageingService));
+        //    // svc = locator.GetMessagingService();
+        //    //弱类型服务定位器
+        //    svc = (IMessageingService)locator.GetService(typeof(IMessageingService));
+        //}
+
+            //采用构造函数注入，极大简化了构造函数的实现
+        public NotificationSystem(IMessageingService service)
+        {
+            this.svc = service;
         }
 
         public void InterestingEventHappened()
