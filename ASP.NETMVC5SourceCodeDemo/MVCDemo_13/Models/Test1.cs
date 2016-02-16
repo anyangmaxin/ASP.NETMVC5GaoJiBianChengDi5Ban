@@ -46,6 +46,11 @@ namespace MVCDemo_13.Models
         public IMessageingService MessagingService { get; set; }
         public void InterestingEventHappened()
         {
+            //属性注入升级版
+            if (MessagingService == null)
+            {
+                throw new InvalidOperationException("Please set MessagingService before calling InterestingEventHappened().");
+            }
             MessagingService.SendMessage();
         }
 
