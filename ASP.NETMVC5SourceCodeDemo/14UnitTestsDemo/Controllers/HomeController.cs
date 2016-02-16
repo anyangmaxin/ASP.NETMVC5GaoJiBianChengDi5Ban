@@ -27,9 +27,10 @@ namespace _14UnitTestsDemo.Controllers
             return View();
         }
 
-        public void SendMeSomeWhereElse()
+        public RedirectResult SendMeSomeWhereElse()
         {
-            Response.Redirect("~/home/index");
+            //Response.Redirect("~/home/index");
+            return Redirect("~/home/index");
         }
     }
 }

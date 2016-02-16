@@ -55,12 +55,16 @@ namespace _14UnitTestsDemo.Tests.Controllers
         [TestMethod]
         public void SendMeSomeWhereElseIssuesRedirect()
         {
-            var mockContent = new Mock<ControllerContext>();
-            mockContent.Setup(c=>c.HttpContext.Response.Redirect("~/home/index"));
+            //var mockContent = new Mock<ControllerContext>();
+            //mockContent.Setup(c=>c.HttpContext.Response.Redirect("~/home/index"));
+            //var controller = new HomeController();
+            //controller.ControllerContext = mockContent.Object;
+            //controller.SendMeSomeWhereElse();
+            //mockContent.Verify();
+
             var controller = new HomeController();
-            controller.ControllerContext = mockContent.Object;
-            controller.SendMeSomeWhereElse();
-            mockContent.Verify();
+            var result = controller.SendMeSomeWhereElse();
+            Assert.AreEqual("~/home/index",result.Url);
         }
     }
 }
