@@ -15,7 +15,7 @@ namespace MVCDemo_13.Models
     }
 
 
-    public class EmailService:IMessageingService
+    public class EmailService : IMessageingService
     {
         public void SendMessage()
         {
@@ -35,16 +35,25 @@ namespace MVCDemo_13.Models
         //    svc = (IMessageingService)locator.GetService(typeof(IMessageingService));
         //}
 
-            //采用构造函数注入，极大简化了构造函数的实现
-        public NotificationSystem(IMessageingService service)
-        {
-            this.svc = service;
-        }
+        //采用构造函数注入，极大简化了构造函数的实现
+        //public NotificationSystem(IMessageingService service)
+        //{
+        //    this.svc = service;
+        //}
 
+
+            //属性注入方式
+        public IMessageingService MessagingService { get; set; }
         public void InterestingEventHappened()
         {
-            svc.SendMessage();
+            MessagingService.SendMessage();
         }
+
+
+        //public void InterestingEventHappened()
+        //{
+        //    svc.SendMessage();
+        //}
         /*
         NotificationSystem类依赖于EmailService类，当一个组件依赖于其他组件时，我们称其为耦合。
 
@@ -59,9 +68,9 @@ namespace MVCDemo_13.Models
     {
         // IMessageingService GetMessagingService();
 
-            //弱类型服务定位器
+        //弱类型服务定位器
         object GetService(Type serviceType);
 
-       
+
     }
 }
