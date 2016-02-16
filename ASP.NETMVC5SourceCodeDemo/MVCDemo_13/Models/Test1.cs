@@ -29,7 +29,10 @@ namespace MVCDemo_13.Models
         public NotificationSystem(IServiceLocator locator)
         {
             //  svc=new EmailService();
-            svc = locator.GetMessagingService();
+
+            // svc = locator.GetMessagingService();
+            //弱类型服务定位器
+            svc = (IMessageingService)locator.GetService(typeof(IMessageingService));
         }
 
         public void InterestingEventHappened()
@@ -48,6 +51,11 @@ namespace MVCDemo_13.Models
     /// </summary>
     public interface IServiceLocator
     {
-        IMessageingService GetMessagingService();
+        // IMessageingService GetMessagingService();
+
+            //弱类型服务定位器
+        object GetService(Type serviceType);
+
+       
     }
 }
