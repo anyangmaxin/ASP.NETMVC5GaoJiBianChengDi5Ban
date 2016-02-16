@@ -6,6 +6,7 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using _14UnitTestsDemo;
 using _14UnitTestsDemo.Controllers;
+using Moq;
 
 namespace _14UnitTestsDemo.Tests.Controllers
 {
@@ -49,6 +50,17 @@ namespace _14UnitTestsDemo.Tests.Controllers
 
             // Assert
             Assert.IsNotNull(result);
+        }
+
+        [TestMethod]
+        public void SendMeSomeWhereElseIssuesRedirect()
+        {
+            var mockContent = new Mock<ControllerContext>();
+            mockContent.Setup(c=>c.HttpContext.Response.Redirect("~/home/index"));
+            var controller = new HomeController();
+            controller.ControllerContext = mockContent.Object;
+            controller.SendMeSomeWhereElse();
+            mockContent.Verify();
         }
     }
 }
