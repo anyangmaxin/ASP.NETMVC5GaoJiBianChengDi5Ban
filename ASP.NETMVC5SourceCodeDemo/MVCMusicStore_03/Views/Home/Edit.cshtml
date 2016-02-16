@@ -1,0 +1,56 @@
+﻿
+@{
+    ViewBag.Title = "Edit";
+    ViewBag.Username = "你好啊";
+}
+
+<h2>Edit</h2>
+@{
+    var items = new string[] {"one","two","three"};
+
+    string rootnamespace = "MyApp";
+}
+<h1>Listing @items.Length items.</h1>
+
+<ul>
+    @foreach (var item in items)
+    {
+        <li>The item name is @item.</li>
+        <li>Item_@item.Length</li>
+    }
+</ul>
+
+<span>@(rootnamespace).Models</span>
+<span>support@megacorp.com</span>
+<p>You should follow @@aspnet</p>
+<hr/>
+@{
+    string message = "<script>alert('haacked');</script>";
+    string message2 = "<strong>This is bold!</strong>";
+    
+}
+<span>@message</span>
+
+<span>@Html.Raw(message2)</span>
+
+
+@*<span id="message3"></span>
+<script type="text/javascript">
+    $(function() {
+        var message3 = "Hello @Ajax.JavaScriptStringEncode(ViewBag.Username)";
+        $("#message3").html(message3).show("slow");
+    });
+</script>*@
+
+@section Footer{
+    This is the <strong>footer</strong>
+}
+
+<div id="result"></div>
+@section scripts{
+    <script type="text/javascript">
+        $(function() {
+            $("#result").load("/home/message");
+        });
+    </script>
+}

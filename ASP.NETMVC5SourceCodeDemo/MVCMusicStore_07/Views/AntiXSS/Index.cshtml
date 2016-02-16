@@ -1,0 +1,28 @@
+﻿@using Microsoft.Security.Application
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+@section featured{
+    <section class="featured">
+        <div class="content-wrapper">
+            <hgroup class="title">
+                <h1>@ViewBag.Title.</h1>
+                <h2 id="welcome-message"></h2>
+            </hgroup>
+        </div>
+    </section>
+}
+
+@section scripts{
+    @if (ViewBag.UserName != null)
+    {
+        <script type="text/javascript">
+            $(function() {
+                var msg = 'Welcom,@Encoder.JavaScriptEncode(ViewBag.UserName,false)!';
+                $("#welcome-message").html(msg).hide().show("slow");
+            });
+        </script>
+    }
+}

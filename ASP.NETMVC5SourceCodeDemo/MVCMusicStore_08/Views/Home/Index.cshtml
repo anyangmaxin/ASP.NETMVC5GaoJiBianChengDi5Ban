@@ -1,0 +1,110 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+<style type="text/css">
+    .highlight {
+        background-color: green;
+    }
+
+    #content, #content2 {
+        width: 100%;
+        margin: 0 auto;
+        float: left;
+    }
+
+    #album-list, #album-list2 {
+        list-style: none;
+    }
+
+        #album-list li, #album-list2 li {
+            margin-right: 5px;
+            float: left;
+            height: 200px;
+        }
+
+            #album-list li div, #album-list2 li div {
+                width: 100px;
+                height: 100px;
+                /*background-color: red;*/
+                border: 1px solid black;
+            }
+
+    footer {
+        width: 100%;
+        margin: 30px auto;
+        float: left;
+    }
+</style>
+
+
+<div id="content">
+    <ul id="album-list">
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+    </ul>
+</div>
+<div id="content2">
+    <ul id="album-list2">
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+        <li>
+            <div></div>
+        </li>
+    </ul>
+</div>
+<br />
+<div id="dailydeal">
+    @Ajax.ActionLink("Click here to see today`s special!", "DailyDeal", null, new AjaxOptions()
+{
+    UpdateTargetId = "dailydeal",
+    InsertionMode = InsertionMode.Replace,
+    HttpMethod = "GET"
+}, new { @class = "btn btn-primary" })
+</div>
+@section scripts{
+    <script src="~/scripts/App/MusicScripts.js"></script>
+}
