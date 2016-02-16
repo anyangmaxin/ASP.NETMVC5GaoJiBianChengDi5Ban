@@ -127,6 +127,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\13_2MVC中的依赖解析.cs" />
     <Compile Include="Models\Test1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
