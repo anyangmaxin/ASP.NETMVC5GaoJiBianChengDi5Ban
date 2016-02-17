@@ -22,7 +22,7 @@ namespace _15Demo.Areas.FluentValidation
                 new { controller = "FluentValidation", action = "Index", id = UrlParameter.Optional }
             );
 
-           
+           //区域注册函数的内部包括变数验证注册
             ModelValidatorProviders.Providers.Add(
                 new FluentValidationProvider()
                     .ForModel<Contact>()
