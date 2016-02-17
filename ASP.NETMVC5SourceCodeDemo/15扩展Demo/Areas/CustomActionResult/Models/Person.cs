@@ -1,4 +1,4 @@
-namespace _15扩展Demo.Areas.CustomActionResult.Models
+namespace _15Demo.Areas.CustomActionResult.Models
 {
     public class Person
     {

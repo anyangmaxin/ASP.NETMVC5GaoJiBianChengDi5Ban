@@ -1,7 +1,7 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.ActionNameSelector.Utility;
+using _15Demo.Areas.ActionNameSelector.Utility;
 
-namespace _15扩展Demo.Areas.ActionNameSelector.Controllers
+namespace _15Demo.Areas.ActionNameSelector.Controllers
 {
     public class ActionNameController : Controller
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.ModelBinder.Utility
+namespace _15Demo.Areas.ModelBinder.Utility
 {
     public class PointModelBinder : IModelBinder
     {

@@ -1,7 +1,7 @@
 using System.Reflection;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.ActionMethodSelector.Utility
+namespace _15Demo.Areas.ActionMethodSelector.Utility
 {
     public class AjaxOnlyAttribute : ActionMethodSelectorAttribute
     {

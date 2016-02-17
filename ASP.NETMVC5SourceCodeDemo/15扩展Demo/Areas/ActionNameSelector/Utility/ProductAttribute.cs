@@ -2,7 +2,7 @@ using System;
 using System.Reflection;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.ActionNameSelector.Utility
+namespace _15Demo.Areas.ActionNameSelector.Utility
 {
     [AttributeUsage(AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public class ProductAttribute : ActionNameSelectorAttribute

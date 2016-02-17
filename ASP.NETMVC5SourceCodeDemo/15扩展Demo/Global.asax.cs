@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
 
-namespace _15扩展Demo
+namespace _15Demo
 {
     public class MvcApplication : System.Web.HttpApplication
     {

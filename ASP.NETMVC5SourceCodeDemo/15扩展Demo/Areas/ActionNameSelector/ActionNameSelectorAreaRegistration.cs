@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.ActionNameSelector
+namespace _15Demo.Areas.ActionNameSelector
 {
     public class ActionNameSelectorAreaRegistration : AreaRegistration
     {

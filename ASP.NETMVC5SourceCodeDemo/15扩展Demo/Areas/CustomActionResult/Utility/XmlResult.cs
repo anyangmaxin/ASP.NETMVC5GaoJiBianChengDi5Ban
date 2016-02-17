@@ -1,7 +1,7 @@
 using System.Web.Mvc;
 using System.Xml.Serialization;
 
-namespace _15扩展Demo.Areas.CustomActionResult.Utility
+namespace _15Demo.Areas.CustomActionResult.Utility
 {
     public class XmlResult : ActionResult
     {

@@ -5,7 +5,7 @@ using System.Text;
 using System.Web.Mvc;
 using System.Web.Mvc.Filters;
 
-namespace _15扩展Demo.Areas.BasicAuthenticationFilter.Utility
+namespace _15Demo.Areas.BasicAuthenticationFilter.Utility
 {
     public class BasicAuthenticationAttribute : FilterAttribute, IAuthenticationFilter
     {

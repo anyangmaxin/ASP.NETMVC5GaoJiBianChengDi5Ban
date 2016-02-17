@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.CustomActionResult
+namespace _15Demo.Areas.CustomActionResult
 {
     public class CustomActionResultAreaRegistration : AreaRegistration
     {

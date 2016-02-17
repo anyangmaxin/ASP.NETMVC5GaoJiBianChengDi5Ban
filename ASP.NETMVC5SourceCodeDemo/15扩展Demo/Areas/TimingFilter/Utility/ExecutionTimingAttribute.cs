@@ -2,7 +2,7 @@ using System;
 using System.Diagnostics;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.TimingFilter.Utility
+namespace _15Demo.Areas.TimingFilter.Utility
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method)]
     public class ExecutionTimingAttribute : ActionFilterAttribute

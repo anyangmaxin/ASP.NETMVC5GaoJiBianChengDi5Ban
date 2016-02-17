@@ -1,8 +1,8 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.FluentValidation.Models;
-using _15扩展Demo.Areas.FluentValidation.Utility;
+using _15Demo.Areas.FluentValidation.Models;
+using _15Demo.Areas.FluentValidation.Utility;
 
-namespace _15扩展Demo.Areas.FluentValidation
+namespace _15Demo.Areas.FluentValidation
 {
     public class FluentValidationAreaRegistration : AreaRegistration
     {

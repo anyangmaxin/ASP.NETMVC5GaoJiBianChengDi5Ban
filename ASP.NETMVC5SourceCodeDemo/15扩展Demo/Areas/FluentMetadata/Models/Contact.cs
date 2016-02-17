@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace _15扩展Demo.Areas.FluentMetadata.Models
+namespace _15Demo.Areas.FluentMetadata.Models
 {
     public class Contact
     {

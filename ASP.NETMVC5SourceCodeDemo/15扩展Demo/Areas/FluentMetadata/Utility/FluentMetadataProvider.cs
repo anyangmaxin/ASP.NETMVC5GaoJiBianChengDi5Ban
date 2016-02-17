@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq.Expressions;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.FluentMetadata.Utility
+namespace _15Demo.Areas.FluentMetadata.Utility
 {
     public class FluentMetadataProvider : DataAnnotationsModelMetadataProvider
     {

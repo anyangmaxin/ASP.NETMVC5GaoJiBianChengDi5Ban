@@ -1,7 +1,7 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.FluentMetadata.Models;
+using _15Demo.Areas.FluentMetadata.Models;
 
-namespace _15扩展Demo.Areas.FluentMetadata.Controllers
+namespace _15Demo.Areas.FluentMetadata.Controllers
 {
     public class FluentMetadataController : Controller
     {

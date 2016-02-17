@@ -1,8 +1,8 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.FluentMetadata.Models;
-using _15扩展Demo.Areas.FluentMetadata.Utility;
+using _15Demo.Areas.FluentMetadata.Models;
+using _15Demo.Areas.FluentMetadata.Utility;
 
-namespace _15扩展Demo.Areas.FluentMetadata
+namespace _15Demo.Areas.FluentMetadata
 {
     public class FluentMetadataAreaRegistration : AreaRegistration
     {

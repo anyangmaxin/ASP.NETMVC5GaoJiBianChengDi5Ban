@@ -1,8 +1,8 @@
 using System.Threading;
 using System.Web.Mvc;
-using _15扩展Demo.Areas.TimingFilter.Utility;
+using _15Demo.Areas.TimingFilter.Utility;
 
-namespace _15扩展Demo.Areas.TimingFilter.Controllers
+namespace _15Demo.Areas.TimingFilter.Controllers
 {
     public class TimingFilterController : Controller
     {

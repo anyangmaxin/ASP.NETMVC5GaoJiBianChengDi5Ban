@@ -1,7 +1,7 @@
 using System;
 using System.Collections;
 
-namespace _15扩展Demo.Areas.TimingFilter.Utility
+namespace _15Demo.Areas.TimingFilter.Utility
 {
     public abstract class DictionaryStatefulStorage : IStatefulStorage
     {

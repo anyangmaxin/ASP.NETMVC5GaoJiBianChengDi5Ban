@@ -1,6 +1,6 @@
 using System.ComponentModel.DataAnnotations;
 
-namespace _15扩展Demo.Areas.FluentValidation.Models
+namespace _15Demo.Areas.FluentValidation.Models
 {
     public class Contact
     {

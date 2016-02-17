@@ -1,8 +1,8 @@
 using System;
 using System.Web.Mvc;
-using _15扩展Demo.Areas.ActionMethodSelector.Utility;
+using _15Demo.Areas.ActionMethodSelector.Utility;
 
-namespace _15扩展Demo.Areas.ActionMethodSelector.Controllers
+namespace _15Demo.Areas.ActionMethodSelector.Controllers
 {
     public class ActionMethodController : Controller
     {

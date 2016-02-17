@@ -1,4 +1,4 @@
-namespace _15扩展Demo.Areas.BasicAuthenticationFilter.Models
+namespace _15Demo.Areas.BasicAuthenticationFilter.Models
 {
     public class User
     {

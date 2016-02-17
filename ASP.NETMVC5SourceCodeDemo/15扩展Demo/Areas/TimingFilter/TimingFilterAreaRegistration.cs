@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.TimingFilter
+namespace _15Demo.Areas.TimingFilter
 {
     public class TimingFilterAreaRegistration : AreaRegistration
     {

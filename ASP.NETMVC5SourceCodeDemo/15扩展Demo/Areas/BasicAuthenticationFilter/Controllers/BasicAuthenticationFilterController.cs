@@ -1,8 +1,8 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.BasicAuthenticationFilter.Models;
-using _15扩展Demo.Areas.BasicAuthenticationFilter.Utility;
+using _15Demo.Areas.BasicAuthenticationFilter.Models;
+using _15Demo.Areas.BasicAuthenticationFilter.Utility;
 
-namespace _15扩展Demo.Areas.BasicAuthenticationFilter.Controllers
+namespace _15Demo.Areas.BasicAuthenticationFilter.Controllers
 {
     public class BasicAuthenticationFilterController : Controller
     {

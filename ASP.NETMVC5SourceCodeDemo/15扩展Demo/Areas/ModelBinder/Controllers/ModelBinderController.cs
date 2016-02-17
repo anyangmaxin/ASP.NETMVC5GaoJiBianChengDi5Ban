@@ -2,7 +2,7 @@ using System;
 using System.Drawing;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.ModelBinder.Controllers
+namespace _15Demo.Areas.ModelBinder.Controllers
 {
     public class ModelBinderController : Controller
     {

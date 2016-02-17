@@ -1,6 +1,6 @@
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.BasicAuthenticationFilter
+namespace _15Demo.Areas.BasicAuthenticationFilter
 {
     public class BasicAuthenticationFilterAreaRegistration : AreaRegistration
     {

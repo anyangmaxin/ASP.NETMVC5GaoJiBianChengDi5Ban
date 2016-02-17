@@ -1,7 +1,7 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.FluentValidation.Models;
+using _15Demo.Areas.FluentValidation.Models;
 
-namespace _15扩展Demo.Areas.FluentValidation.Controllers
+namespace _15Demo.Areas.FluentValidation.Controllers
 {
     public class FluentValidationController : Controller
     {

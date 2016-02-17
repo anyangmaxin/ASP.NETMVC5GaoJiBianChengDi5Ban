@@ -3,7 +3,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace _15扩展Demo.Areas.BasicAuthenticationFilter.Utility
+namespace _15Demo.Areas.BasicAuthenticationFilter.Utility
 {
     public class AddChallengeOnUnauthorizedResult : ActionResult
     {

@@ -1,8 +1,8 @@
 using System.Web.Mvc;
-using _15扩展Demo.Areas.CustomActionResult.Models;
-using _15扩展Demo.Areas.CustomActionResult.Utility;
+using _15Demo.Areas.CustomActionResult.Models;
+using _15Demo.Areas.CustomActionResult.Utility;
 
-namespace _15扩展Demo.Areas.CustomActionResult.Controllers
+namespace _15Demo.Areas.CustomActionResult.Controllers
 {
     public class CustomActionResultController : Controller
     {

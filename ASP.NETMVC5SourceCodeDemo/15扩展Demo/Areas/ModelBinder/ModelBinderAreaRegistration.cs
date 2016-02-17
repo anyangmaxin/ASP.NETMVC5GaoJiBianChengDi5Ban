@@ -1,8 +1,8 @@
 using System.Drawing;
 using System.Web.Mvc;
-using _15扩展Demo.Areas.ModelBinder.Utility;
+using _15Demo.Areas.ModelBinder.Utility;
 
-namespace _15扩展Demo.Areas.ModelBinder
+namespace _15Demo.Areas.ModelBinder
 {
     public class ModelBinderAreaRegistration : AreaRegistration
     {
