@@ -85,7 +85,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14UnitTestsDemo.Tests", "14
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "15扩展ASP.NETMVC", "15扩展ASP.NETMVC", "{6B937290-DA97-4ADD-8189-9A3E27364C72}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15Demo", "15扩展Demo\15Demo.csproj", "{ECB8F278-9B2A-4FE9-A0C2-3DD7F2C826EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "15Demo", "15Demo\15Demo.csproj", "{ECB8F278-9B2A-4FE9-A0C2-3DD7F2C826EC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

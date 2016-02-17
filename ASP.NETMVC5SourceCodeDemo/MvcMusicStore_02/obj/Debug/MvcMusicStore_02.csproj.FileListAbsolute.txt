@@ -199,4 +199,3 @@ E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MvcMusicSto
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MvcMusicStore_02\obj\Debug\MvcMusicStore_02.csprojResolveAssemblyReference.cache
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MvcMusicStore_02\obj\Debug\MvcMusicStore_02.dll
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MvcMusicStore_02\obj\Debug\MvcMusicStore_02.pdb
-E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MvcMusicStore_02\obj\Debug\MvcMusicStore_02.csprojResolveAssemblyReference.cache

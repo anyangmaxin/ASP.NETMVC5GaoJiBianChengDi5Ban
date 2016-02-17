@@ -141,4 +141,3 @@ E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicSto
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_04\obj\Debug\MVCMusicStore_04.csprojResolveAssemblyReference.cache
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_04\obj\Debug\MVCMusicStore_04.dll
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_04\obj\Debug\MVCMusicStore_04.pdb
-E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_04\obj\Debug\MVCMusicStore_04.csprojResolveAssemblyReference.cache

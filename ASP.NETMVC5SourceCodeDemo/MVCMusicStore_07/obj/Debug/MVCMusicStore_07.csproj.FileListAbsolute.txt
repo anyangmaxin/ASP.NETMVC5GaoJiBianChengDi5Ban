@@ -63,7 +63,6 @@ E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStor
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\HtmlSanitizationLibrary.xml
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\Microsoft.Owin.xml
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\zh-Hans\Microsoft.Owin.resources.dll
-E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\obj\Debug\MVCMusicStore_07.csprojResolveAssemblyReference.cache
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\ApplicationInsights.config
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\roslyn\csc.exe
 E:\GitHub\ASP.NETMVC5GaoJiBianChengDi5Ban2\ASP.NETMVC5SourceCodeDemo\MVCMusicStore_07\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
