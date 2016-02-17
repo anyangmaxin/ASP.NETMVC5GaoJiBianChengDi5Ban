@@ -124,6 +124,42 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Areas\ActionMethodSelector\ActionMethodSelectorAreaRegistration.cs" />
+    <Compile Include="Areas\ActionMethodSelector\Controllers\ActionMethodController.cs" />
+    <Compile Include="Areas\ActionMethodSelector\Utility\AjaxOnlyAttribute.cs" />
+    <Compile Include="Areas\ActionNameSelector\ActionNameSelectorAreaRegistration.cs" />
+    <Compile Include="Areas\ActionNameSelector\Controllers\ActionNameController.cs" />
+    <Compile Include="Areas\ActionNameSelector\Utility\ProductAttribute.cs" />
+    <Compile Include="Areas\BasicAuthenticationFilter\BasicAuthenticationFilterAreaRegistration.cs" />
+    <Compile Include="Areas\BasicAuthenticationFilter\Controllers\BasicAuthenticationFilterController.cs" />
+    <Compile Include="Areas\BasicAuthenticationFilter\Models\User.cs" />
+    <Compile Include="Areas\BasicAuthenticationFilter\Utility\AddChallengeOnUnauthorizedResult.cs" />
+    <Compile Include="Areas\BasicAuthenticationFilter\Utility\BasicAuthenticationAttribute.cs" />
+    <Compile Include="Areas\CustomActionResult\Controllers\CustomActionResultController.cs" />
+    <Compile Include="Areas\CustomActionResult\CustomActionResultAreaRegistration.cs" />
+    <Compile Include="Areas\CustomActionResult\Models\Person.cs" />
+    <Compile Include="Areas\CustomActionResult\Utility\XmlResult.cs" />
+    <Compile Include="Areas\FluentMetadata\Controllers\FluentMetadataController.cs" />
+    <Compile Include="Areas\FluentMetadata\FluentMetadataAreaRegistration.cs" />
+    <Compile Include="Areas\FluentMetadata\Models\Contact.cs" />
+    <Compile Include="Areas\FluentMetadata\Utility\FluentMetadataProvider.cs" />
+    <Compile Include="Areas\FluentValidation\Controllers\FluentValidationController.cs" />
+    <Compile Include="Areas\FluentValidation\FluentValidationAreaRegistration.cs" />
+    <Compile Include="Areas\FluentValidation\Models\Contact.cs" />
+    <Compile Include="Areas\FluentValidation\Utility\FluentValidationProvider.cs" />
+    <Compile Include="Areas\ModelBinder\Controllers\ModelBinderController.cs" />
+    <Compile Include="Areas\ModelBinder\ModelBinderAreaRegistration.cs" />
+    <Compile Include="Areas\ModelBinder\Utility\PointModelBinder.cs" />
+    <Compile Include="Areas\TimingFilter\Controllers\TimingFilterController.cs" />
+    <Compile Include="Areas\TimingFilter\TimingFilterAreaRegistration.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\DictionaryStatefulStorage.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\ExecutionTimingAttribute.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\IStatefulStorage.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\StatefulStorage.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\StatefulStorageExtensions.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\StatefulStoragePerApplication.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\StatefulStoragePerRequest.cs" />
+    <Compile Include="Areas\TimingFilter\Utility\StatefulStoragePerSession.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -135,6 +171,18 @@
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+    <Content Include="Index.cshtml" />
+    <Content Include="Areas\_ViewStart.cshtml" />
+    <Content Include="Areas\_Layout.cshtml" />
+    <Content Include="Areas\Web.config" />
+    <Content Include="Areas\TimingFilter\Views\TimingFilter\Index.cshtml" />
+    <Content Include="Areas\ModelBinder\Views\ModelBinder\Index.cshtml" />
+    <Content Include="Areas\FluentValidation\Views\FluentValidation\Index.cshtml" />
+    <Content Include="Areas\FluentMetadata\Views\FluentMetadata\Index.cshtml" />
+    <Content Include="Areas\BasicAuthenticationFilter\Views\BasicAuthenticationFilter\Index.cshtml" />
+    <Content Include="Areas\BasicAuthenticationFilter\Views\BasicAuthenticationFilter\Authenticated.cshtml" />
+    <Content Include="Areas\ActionNameSelector\Views\ActionName\Index.cshtml" />
+    <Content Include="Areas\ActionMethodSelector\Views\ActionMethod\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
