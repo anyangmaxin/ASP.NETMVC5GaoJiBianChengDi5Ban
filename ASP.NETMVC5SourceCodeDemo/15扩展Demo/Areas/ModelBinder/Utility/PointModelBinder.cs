@@ -7,14 +7,18 @@ namespace _15Demo.Areas.ModelBinder.Utility
 {
     public class PointModelBinder : IModelBinder
     {
-        public object BindModel(ControllerContext controllerContext,
-                                ModelBindingContext bindingContext)
+        /// <summary>
+        /// 构造一个新实例
+        /// </summary>
+        /// <param name="controllerContext"></param>
+        /// <param name="bindingContext"></param>
+        /// <returns></returns>
+        public object BindModel(ControllerContext controllerContext, ModelBindingContext bindingContext)
         {
             // We first attempt to find values based on the model name, and if we can't find
             // anything for the model name, we'll fall back to the empty prefix as appropriate.
 
-            if (!String.IsNullOrEmpty(bindingContext.ModelName) &&
-                !bindingContext.ValueProvider.ContainsPrefix(bindingContext.ModelName))
+            if (!String.IsNullOrEmpty(bindingContext.ModelName) && !bindingContext.ValueProvider.ContainsPrefix(bindingContext.ModelName))
             {
                 if (!bindingContext.FallbackToEmptyPrefix)
                     return null;
@@ -43,9 +47,7 @@ namespace _15Demo.Areas.ModelBinder.Utility
             );
         }
 
-        private TModel Get<TModel>(ControllerContext controllerContext,
-                                    ModelBindingContext bindingContext,
-                                    string name)
+        private TModel Get<TModel>(ControllerContext controllerContext, ModelBindingContext bindingContext, string name)
         {
             // Get the fully qualified name, because model state needs to use that, and not just
             // the simple property name.
