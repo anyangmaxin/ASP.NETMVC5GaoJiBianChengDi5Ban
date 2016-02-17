@@ -16,6 +16,7 @@ namespace _15Demo.Areas.FluentMetadata
                 new { controller = "FluentMetadata", action = "Index", id = UrlParameter.Optional }
             );
 
+            //元数据在区域注册函数内注册
             ModelMetadataProviders.Current =
                 new FluentMetadataProvider()
                     .ForModel<Contact>()
