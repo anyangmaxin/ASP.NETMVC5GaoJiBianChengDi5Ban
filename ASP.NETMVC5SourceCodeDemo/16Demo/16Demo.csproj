@@ -150,6 +150,7 @@
     </Compile>
     <Compile Include="Models\CustomWebViewPage.cs" />
     <Compile Include="Models\RazorLayoutHelpers.cs" />
+    <Compile Include="App_Start\Routes.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
