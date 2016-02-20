@@ -31,5 +31,15 @@ namespace _16Demo.Controllers
             return Redirect("TestRedirect");
             
         }
+
+        /// <summary>
+        /// 与Redirect一样，但它返回一个把permanent属性设置为true的RedirectResult，因此，返回一个http 301状态码
+        /// </summary>
+        /// <returns></returns>
+        public RedirectResult RedirectPermanent()
+        {
+           // return RedirectPermanent();
+            return RedirectPermanent("TestRedirect");
+        }
     }
 }
