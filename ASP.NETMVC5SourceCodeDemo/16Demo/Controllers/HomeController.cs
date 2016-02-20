@@ -13,5 +13,23 @@ namespace _16Demo.Controllers
         {
             return View();
         }
+
+
+
+        public ActionResult TestRedirect()
+        {
+            return View();
+           // return Redirect("Index");
+        }
+
+        /// <summary>
+        /// 返回一个RedirectResult对象，把用户重定向到一个合适的url
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult Redirect()
+        {
+            return Redirect("TestRedirect");
+            
+        }
     }
 }
