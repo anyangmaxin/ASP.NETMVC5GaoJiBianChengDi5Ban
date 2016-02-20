@@ -41,5 +41,14 @@ namespace _16Demo.Controllers
            // return RedirectPermanent();
             return RedirectPermanent("TestRedirect");
         }
+
+        /// <summary>
+        /// 返回一个RedirectToRouteResult对象，根据提供的路由值 把用户重定向到一个操作方法
+        /// </summary>
+        /// <returns></returns>
+        public ActionResult RedirectToAction()
+        {
+            return RedirectToAction("TestRedirect");
+        }
     }
 }
