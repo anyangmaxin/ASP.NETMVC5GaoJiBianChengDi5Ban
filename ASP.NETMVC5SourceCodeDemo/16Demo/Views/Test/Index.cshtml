@@ -1,0 +1,23 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<div>
+    <h1>顺序执行方式结果以及所用时间</h1>
+    <div>
+        <h2>总时间：@ViewBag.CountTimes 毫秒</h2>
+        <h3>结果：@ViewBag.GetA || @ViewBag.GetB</h3>
+    </div>
+</div>
+
+
+<div>
+    <h1>异步执行方式结果以及所用时间</h1>
+    <div>
+        <h2>总时间：@ViewBag.CountTimes2 毫秒</h2>
+        <h3>结果：@ViewBag.GetA2  ||  @ViewBag.GetB2</h3>
+    </div>
+</div>
